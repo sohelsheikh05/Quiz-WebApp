@@ -41,6 +41,7 @@ function App() {
       setTimeLeft(10);
     } else {
       setShowResults(true);
+      
     }
   };
 
@@ -72,6 +73,7 @@ function App() {
     return (
      
       <div className="results">
+         
         <h1>🎉 Quiz Completed 🎉</h1>
         <h2>Score: {score}/{currentQuiz.length}</h2>
         <div className="summary">
@@ -118,7 +120,7 @@ function App() {
           <button key={i} onClick={() => handleAnswer(opt,question)}>{opt}</button>
         ))}
       </div>
-      <button onClick={() => setShowResults(true)}>Submit</button>
+      <button onClick={() => setShowResults(true) }>Submit</button>
       <button onClick={() => setSelectedQuiz(null)}>Exit</button>
     </div>
 
