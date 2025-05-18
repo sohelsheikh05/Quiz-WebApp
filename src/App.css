@@ -62,7 +62,7 @@ background: linear-gradient(to right, #4389A2, #5C258D);
   overflow: hidden;
   position: relative;
   flex-shrink: 1;
-  height: 85vh;
+  height: auto;
   width: 60vw;
 }
  
@@ -147,7 +147,7 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
   
 }
 
-.results h1 {
+.results h1,h2 {
   color: #28a745;
   
 }
@@ -164,11 +164,11 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
 }
 
 .answer-summary.correct {
-  color: green;
+  color: rgb(82, 241, 82);
 }
 
 .answer-summary.incorrect {
-  color: red;
+  color: rgb(198, 5, 5);
 }
 
 .results button {
