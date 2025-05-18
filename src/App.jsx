@@ -31,10 +31,11 @@ function App() {
   }, [timeLeft]);
 
   const handleAnswer = (answer) => {
-    const question = currentQuiz[currentQuestion];
-    const isCorrect = answer === question.correct;
+    const questions = currentQuiz[currentQuestion];
+    
+    const isCorrect = answer === questions.correct;
     if (isCorrect) setScore(score + 1);
-    setAnswers([...answers, { selected: answer, correct: question.correct }]);
+    setAnswers([...answers, { selected: answer, correct: questions.correct, question: questions.question }]);
     if (currentQuestion + 1 < currentQuiz.length) {
       setCurrentQuestion(currentQuestion + 1);
       setTimeLeft(10);
@@ -55,18 +56,21 @@ function App() {
 
   if (!selectedQuiz) {
     return (
+  
       <div className="home">
         <h1>Choose a Quiz</h1>
         {Object.keys(quizzes).map((quiz) => (
           <button key={quiz} onClick={() => setSelectedQuiz(quiz)}>{quiz}</button>
         ))}
       </div>
+
     );
   }
 
   if (showResults) {
    
     return (
+     
       <div className="results">
         <h1>🎉 Quiz Completed 🎉</h1>
         <h2>Score: {score}/{currentQuiz.length}</h2>
@@ -74,13 +78,14 @@ function App() {
           {answers.map((ans, index) => (
            
             <div key={index} className={`answer-summary ${ans.selected === ans.correct ? 'correct' : 'incorrect'}`}>
-              <p>Q{index + 1}: Correct: {ans.correct}, You chose: {ans.selected || 'No Answer'}</p>
+              <p>Q{index + 1}:  {ans.question}</p><p>Correct: {ans.correct}, You chose: {ans.selected || 'No Answer'}</p>
             </div>
           ))}
         </div>
         <button onClick={retryQuiz}>Retry</button>
         <button onClick={() => setSelectedQuiz(null)}>Take Another Quiz</button>
       </div>
+
     );
   }
 
@@ -88,6 +93,7 @@ function App() {
   const progress = ((currentQuestion) / currentQuiz.length) * 100;
 
   return (
+
     <div className="quiz-container">
       <div className="quiz-header">
         <h1>{selectedQuiz}</h1>
@@ -109,10 +115,13 @@ function App() {
       <div className="question-section">
         <h2>{question.question}</h2>
         {question.options.map((opt, i) => (
-          <button key={i} onClick={() => handleAnswer(opt)}>{opt}</button>
+          <button key={i} onClick={() => handleAnswer(opt,question)}>{opt}</button>
         ))}
       </div>
+      <button onClick={() => setShowResults(true)}>Submit</button>
+      <button onClick={() => setSelectedQuiz(null)}>Exit</button>
     </div>
+
   );
 }
 
