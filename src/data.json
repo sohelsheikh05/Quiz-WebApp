@@ -1,0 +1,315 @@
+ {
+  "Cricket Quiz": [
+    {
+      "question": "Who is known as the 'God of Cricket'",
+      "options": ["MS Dhoni", "Sachin Tendulkar", "Virat Kohli", "Kapil Dev"],
+      "correct": "Sachin Tendulkar"
+    },
+    {
+      "question": "How many players are on a cricket team?",
+      "options": ["9", "10", "11", "12"],
+      "correct": "11"
+    },
+    {
+      "question": "What is the term for 3 wickets in 3 balls?",
+      "options": ["Hat-trick", "Triple", "Streak", "Combo"],
+      "correct": "Hat-trick"
+    },
+    {
+      "question": "Which country won the first Cricket World Cup?",
+      "options": ["India", "West Indies", "Australia", "England"],
+      "correct": "West Indies"
+    },
+    {
+      "question": "Who is the highest run-scorer in ODI history?",
+      "options": ["Virat Kohli", "Ricky Ponting", "MS Dhoni", "Sachin Tendulkar"],
+      "correct": "Sachin Tendulkar"
+    },
+    {
+      "question": "Which country does AB de Villiers play for?",
+      "options": ["Australia", "South Africa", "England", "New Zealand"],
+      "correct": "South Africa"
+    },
+    {
+      "question": "What does LBW stand for?",
+      "options": ["Leg Before Wicket", "Long Ball Wide", "Left Batting Width", "Line Bowled Wide"],
+      "correct": "Leg Before Wicket"
+    },
+    {
+      "question": "Which Indian bowler took 10 wickets in a Test inning?",
+      "options": ["Anil Kumble", "Kapil Dev", "Jasprit Bumrah", "Zaheer Khan"],
+      "correct": "Anil Kumble"
+    },
+    {
+      "question": "Who is the captain of India in 2023 World Cup?",
+      "options": ["Virat Kohli", "MS Dhoni", "Rohit Sharma", "KL Rahul"],
+      "correct": "Rohit Sharma"
+    },
+    {
+      "question": "Which format of cricket is 20 overs per side?",
+      "options": ["ODI", "Test", "T20", "IPL"],
+      "correct": "T20"
+    }
+  ],
+  "Football Quiz": [
+    {
+      "question": "Which country won the 2022 FIFA World Cup?",
+      "options": ["France", "Argentina", "Germany", "Brazil"],
+      "correct": "Argentina"
+    },
+    {
+      "question": "Who has scored the most goals in football history?",
+      "options": ["Cristiano Ronaldo", "Lionel Messi", "Pele", "Maradona"],
+      "correct": "Cristiano Ronaldo"
+    },
+    {
+      "question": "Which club does Lionel Messi currently play for (2023)?",
+      "options": ["Barcelona", "PSG", "Inter Miami", "Manchester City"],
+      "correct": "Inter Miami"
+    },
+    {
+      "question": "Which country has won the most World Cups?",
+      "options": ["Germany", "Italy", "Brazil", "Argentina"],
+      "correct": "Brazil"
+    },
+    {
+      "question": "Which team won the UEFA Champions League in 2023?",
+      "options": ["Man City", "Real Madrid", "Chelsea", "Bayern Munich"],
+      "correct": "Man City"
+    },
+    {
+      "question": "What is the nickname of the German national team?",
+      "options": ["The Blues", "La Roja", "Die Mannschaft", "Azzurri"],
+      "correct": "Die Mannschaft"
+    },
+    {
+      "question": "Who is known as the 'King of Football'?",
+      "options": ["Pele", "Messi", "Ronaldo", "Zidane"],
+      "correct": "Pele"
+    },
+    {
+      "question": "Where was the first World Cup held?",
+      "options": ["Brazil", "Uruguay", "Germany", "Italy"],
+      "correct": "Uruguay"
+    },
+    {
+      "question": "Which club has won the most UCL titles?",
+      "options": ["AC Milan", "Liverpool", "Barcelona", "Real Madrid"],
+      "correct": "Real Madrid"
+    },
+    {
+      "question": "Who won Ballon d'Or in 2023?",
+      "options": ["Messi", "Mbappe", "Haaland", "Benzema"],
+      "correct": "Messi"
+    }
+  ],
+  "IPL Quiz": [
+    {
+      "question": "Which team has won the most IPL titles?",
+      "options": ["MI", "CSK", "RCB", "KKR"],
+      "correct": "MI"
+    },
+    {
+      "question": "Who scored the fastest century in IPL?",
+      "options": ["Chris Gayle", "David Miller", "KL Rahul", "Yusuf Pathan"],
+      "correct": "Chris Gayle"
+    },
+    {
+      "question": "Which team is known as 'Men in Yellow'?",
+      "options": ["CSK", "MI", "SRH", "RR"],
+      "correct": "CSK"
+    },
+    {
+      "question": "Who won IPL 2023?",
+      "options": ["GT", "CSK", "MI", "RR"],
+      "correct": "CSK"
+    },
+    {
+      "question": "Who is the leading run scorer in IPL history?",
+      "options": ["Warner", "Virat Kohli", "Raina", "Rohit Sharma"],
+      "correct": "Virat Kohli"
+    },
+    {
+      "question": "Who has taken most wickets in IPL?",
+      "options": ["Malinga", "Bumrah", "Bravo", "Chahal"],
+      "correct": "Bravo"
+    },
+    {
+      "question": "Which team plays at Eden Gardens?",
+      "options": ["KKR", "MI", "CSK", "SRH"],
+      "correct": "KKR"
+    },
+    {
+      "question": "What is the maximum number of overseas players allowed in a playing XI?",
+      "options": ["3", "4", "5", "6"],
+      "correct": "4"
+    },
+    {
+      "question": "Who hit 6 sixes in an over in IPL?",
+      "options": ["Yuvraj Singh", "Ruturaj", "Gibbs", "No one"],
+      "correct": "No one"
+    },
+    {
+      "question": "Who was the first Orange Cap winner?",
+      "options": ["Shaun Marsh", "Gambhir", "Rohit", "Sehwag"],
+      "correct": "Shaun Marsh"
+    }
+  ],
+  "MS Dhoni Quiz": [
+    {
+      "question": "When did Dhoni debut for India?",
+      "options": ["2002", "2003", "2004", "2005"],
+      "correct": "2004"
+    },
+    {
+      "question": "Which state is Dhoni from?",
+      "options": ["UP", "Bihar", "Jharkhand", "Maharashtra"],
+      "correct": "Jharkhand"
+    },
+    {
+      "question": "What is Dhoni's jersey number?",
+      "options": ["7", "10", "18", "9"],
+      "correct": "7"
+    },
+    {
+      "question": "Which IPL team does Dhoni captain?",
+      "options": ["CSK", "MI", "RR", "RCB"],
+      "correct": "CSK"
+    },
+    {
+      "question": "In which year did India win the T20 WC under Dhoni?",
+      "options": ["2006", "2007", "2008", "2009"],
+      "correct": "2007"
+    },
+    {
+      "question": "Which movie is based on Dhoni's life?",
+      "options": ["83", "Dhoni", "MSD: The Untold Story", "Captain Cool"],
+      "correct": "MSD: The Untold Story"
+    },
+    {
+      "question": "Which award did Dhoni receive in 2018?",
+      "options": ["Padma Bhushan", "Arjuna Award", "Khel Ratna", "Padma Shri"],
+      "correct": "Padma Bhushan"
+    },
+    {
+      "question": "Against which team did Dhoni score his first ODI century?",
+      "options": ["Sri Lanka", "Pakistan", "Bangladesh", "England"],
+      "correct": "Pakistan"
+    },
+    {
+      "question": "How many ICC trophies has Dhoni won?",
+      "options": ["2", "3", "4", "1"],
+      "correct": "3"
+    },
+    {
+      "question": "What is Dhoni’s highest score in ODIs?",
+      "options": ["183*", "200", "175", "150*"],
+      "correct": "183*"
+    }
+  ],
+  "Rohit Sharma Quiz": [
+    {
+      "question": "What is Rohit Sharma's highest ODI score?",
+      "options": ["209", "264", "219", "232"],
+      "correct": "264"
+    },
+    {
+      "question": "How many double centuries does Rohit have in ODIs?",
+      "options": ["2", "3", "4", "5"],
+      "correct": "3"
+    },
+    {
+      "question": "Which IPL team does Rohit Sharma play for?",
+      "options": ["MI", "CSK", "RCB", "SRH"],
+      "correct": "MI"
+    },
+    {
+      "question": "Which year did Rohit debut in ODIs?",
+      "options": ["2005", "2006", "2007", "2008"],
+      "correct": "2007"
+    },
+    {
+      "question": "Which format did Rohit Sharma debut as captain in 2017?",
+      "options": ["Test", "ODI", "T20", "All"],
+      "correct": "T20"
+    },
+    {
+      "question": "How many centuries did Rohit score in 2019 WC?",
+      "options": ["3", "4", "5", "6"],
+      "correct": "5"
+    },
+    {
+      "question": "Where was Rohit born?",
+      "options": ["Mumbai", "Nagpur", "Delhi", "Hyderabad"],
+      "correct": "Nagpur"
+    },
+    {
+      "question": "Who is Rohit's IPL team coach?",
+      "options": ["Fleming", "Jayawardene", "Ponting", "Sangakkara"],
+      "correct": "Jayawardene"
+    },
+    {
+      "question": "Rohit is known as?",
+      "options": ["Hitman", "Run Machine", "Wall", "Master Blaster"],
+      "correct": "Hitman"
+    },
+    {
+      "question": "How many sixes in ODIs has Rohit hit (approx)?",
+      "options": ["250+", "300+", "200+", "100+"],
+      "correct": "300+"
+    }
+  ],
+  "Virat Kohli Quiz": [
+    {
+      "question": "When did Virat Kohli make his international debut?",
+      "options": ["2006", "2007", "2008", "2009"],
+      "correct": "2008"
+    },
+    {
+      "question": "What is Virat Kohli's jersey number?",
+      "options": ["7", "18", "10", "33"],
+      "correct": "18"
+    },
+    {
+      "question": "Which team does Kohli play for in IPL?",
+      "options": ["RCB", "MI", "CSK", "KKR"],
+      "correct": "RCB"
+    },
+    {
+      "question": "Who is Kohli married to?",
+      "options": ["Anushka Sharma", "Deepika Padukone", "Priyanka Chopra", "Alia Bhatt"],
+      "correct": "Anushka Sharma"
+    },
+    {
+      "question": "Which country did Kohli score his first Test century against?",
+      "options": ["England", "Australia", "New Zealand", "Sri Lanka"],
+      "correct": "Australia"
+    },
+    {
+      "question": "How many centuries has Kohli scored in ODIs (approx)?",
+      "options": ["40+", "50+", "60+", "70+"],
+      "correct": "50+"
+    },
+    {
+      "question": "What is Kohli’s nickname?",
+      "options": ["Cheeku", "Chiku", "Vir", "VK"],
+      "correct": "Cheeku"
+    },
+    {
+      "question": "Who was Kohli’s U19 coach?",
+      "options": ["Lalchand Rajput", "Rahul Dravid", "Roger Binny", "Venkatesh Prasad"],
+      "correct": "Lalchand Rajput"
+    },
+    {
+      "question": "What is Kohli’s highest score in ODIs?",
+      "options": ["183", "200", "175", "168"],
+      "correct": "183"
+    },
+    {
+      "question": "When did Kohli become India’s Test captain?",
+      "options": ["2014", "2015", "2016", "2017"],
+      "correct": "2014"
+    }
+
+  ]
+}
